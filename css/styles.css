@@ -353,5 +353,11 @@ body {
   height: 8rem;
   border: 3px solid #ffffff;
   border-radius: 3px;
+  cursor: pointer;
+}
+
+.informacion .contenedor .content #grid-system .columna-of-a input, .informacion .contenedor .content #grid-system .columna-of-b input, .informacion .contenedor .content #grid-system .columna-of-c input, .informacion .contenedor .content #grid-system .columna-of-d input, .informacion .contenedor .content #grid-system .columna-of-e input, .informacion .contenedor .content #grid-system .columna-of-f input, .informacion .contenedor .content #grid-system .columna-of-g input, .informacion .contenedor .content #grid-system .columna-of-h input, .informacion .contenedor .content #grid-system .columna-of-i input, .informacion .contenedor .content #grid-system .columna-of-j input, .informacion .contenedor .content #grid-system .columna-of-k input, .informacion .contenedor .content #grid-system .columna-of-l input {
+  opacity: 0;
+  pointer-events: none;
 }
 /*# sourceMappingURL=styles.css.map */
