@@ -91,7 +91,7 @@ body{
     nav{
         width: 100%;
         display: grid;
-        grid-template-columns: 20% 1fr 1fr 20%;
+        grid-template-columns: 30% 1fr 1fr 30%;
         align-items: center;
         left: 0;
         top: 0;
@@ -347,3 +347,165 @@ footer{
         color: #333;
     }
 }
+
+
+@media all and (max-width: 1252px){
+    .navbar nav a.logo img{
+        width: 15%;
+    }
+    .main .contenedor .lado.lado-izquierdo h2{
+        font-size: 2.5rem;
+    }
+    .main .contenedor .lado.lado-izquierdo p{
+        font-size: 0.9rem;
+        margin-inline-end: 1rem 0;
+    }
+    .navbar nav div.enlaces button{
+        font-size: 0.9rem;
+        padding: 8px 13px;
+    }
+    .navbar nav div.enlaces a{
+        font-size: 0.9rem;
+    }
+}
+
+@media all and (max-width: 1080px){
+    .informacion .contenedor .content #grid-system{
+        grid-gap: 3%;
+    }
+    .informacion .contenedor .content h3{
+        font-size: 1.25rem;
+    }
+}
+
+@media all and (max-width: 1000px){
+    .informacion .contenedor .content #grid-system{
+        grid-gap: 0.05%;
+    }
+    .informacion .contenedor{
+        padding: 0.75rem;
+    }
+    .informacion .contenedor .filtros ul li button{
+        padding: 16px 44px;
+    }
+    .main .contenedor .lado.lado-izquierdo h2{
+        font-size: 2rem;
+    }
+    .navbar nav{
+        grid-template-columns: 40% 1fr 1fr 40%;
+    }
+}
+
+@media all and (max-width: 930px){
+    .informacion .contenedor .content #grid-system{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 4%;
+    }
+    .informacion{
+        padding: 4rem 0;
+    }
+    .main .contenedor .lado.lado-izquierdo h2{
+        font-size: 1.75rem;
+    }
+    footer{
+        font-size: 0.9rem;
+    }
+}
+
+@media all and (max-width: 830px){
+    .informacion .contenedor .content #grid-system{
+        grid-gap: 1%;
+    }
+    .navbar nav div.enlaces{
+        grid-column: 2/3;
+    }
+    .navbar nav{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .navbar nav a.logo{
+        padding: 1rem;
+    }
+    .navbar nav a.logo{
+        justify-content: flex-start;
+    }
+    .navbar nav div.enlaces{
+        justify-content: flex-end;
+    }
+}
+
+@media all and (max-width: 800px){
+    .informacion .contenedor{
+        display: block;
+    }
+    .informacion .contenedor .filtros{
+        width: 100%;
+        border: none;
+    }
+    .informacion .contenedor .filtros ul{
+        flex-wrap: wrap;
+        div.primerflex{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        li{
+            flex-wrap: wrap;
+            margin: 0 0.75rem;
+        }
+    }
+    footer{
+        font-size: 0.8rem;
+    }
+    .informacion .contenedor .content{
+        width: 100%;
+    }
+}
+
+@media all and (max-width:750px){
+    .informacion .contenedor .filtros ul li{
+        margin: 0 0.25rem;
+    }
+    .informacion .contenedor .filtros ul{
+        width: 90%;
+        margin: 1rem auto;
+    }
+    .informacion .contenedor .content #grid-system .columna-of-a div, .informacion .contenedor .content #grid-system .columna-of-b div, .informacion .contenedor .content #grid-system .columna-of-c div, .informacion .contenedor .content #grid-system .columna-of-d div, .informacion .contenedor .content #grid-system .columna-of-e div, .informacion .contenedor .content #grid-system .columna-of-f div, .informacion .contenedor .content #grid-system .columna-of-g div, .informacion .contenedor .content #grid-system .columna-of-h div, .informacion .contenedor .content #grid-system .columna-of-i div, .informacion .contenedor .content #grid-system .columna-of-j div, .informacion .contenedor .content #grid-system .columna-of-k div, .informacion .contenedor .content #grid-system .columna-of-l div{
+        height: 7rem;
+    }
+    .main .contenedor .lado{
+        width: 100%;
+    }
+    footer{
+        font-size: 0.775rem;
+    }
+    .main .contenedor .lado.lado-derecho{
+        display: none;
+    }
+    .main .contenedor .lado.lado-izquierdo a{
+        padding: 6px 13px;
+        font-size: 0.9rem;
+    }
+    .navbar nav a.logo h2{
+        font-size: 1.1rem;
+    }
+}
+
+@media all and (max-width:500px){
+    .navbar nav div.enlaces a, .navbar nav div.enlaces button{
+        margin: 0 0.25rem;
+    }
+    .informacion .contenedor .filtros ul div.primerflex{
+        flex-direction: row-reverse;
+    }
+    .informacion .contenedor .content #grid-system{
+        grid-gap: 0;
+    }
+}
+
+@media all and (max-width:400px){
+    .informacion .contenedor .content #grid-system{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
