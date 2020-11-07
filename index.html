@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="img/Favicon.png" type="image/x-icon">
+<link rel="icon" href="img/Favicon.png" type="image/x-icon">
     <!-- FONT AWESOME -->
     <script src="https://kit.fontawesome.com/b72be65822.js" crossorigin="anonymous"></script>
     <!-- SCROLLBAR CUSTOM - by me -->
@@ -11,7 +14,27 @@
     <link rel="stylesheet" href="css/styles.css">
     <title>Splash</title>
 </head>
-<body class="w-15 radius degraded">
+<body class="w-15 radius">
+
+    <div class="modal">
+        <div class="info-modal">
+            <h2>Informaci&oacute;n</h2>
+            <hr>
+            <div>
+                <p>Web dedicada a los colores degradados para fondos en sus sitios web. Se tratará de actualizar constantemente, introduciendo nuevas conbinaciones de colores, colores solidos, mixes de +3 colores, entre otros.</p>
+                <ul>
+                    <li>+ 10 Colores Degradados.</li>
+                    <li>Contribuiciones bienvenidas.</li>
+                    <li>Clipboards al portapapeles.</li>
+                </ul>
+            </div>
+            <br><br>
+            <small>Creado por <a style="color: #000;" href="https://github.com/Edward-Alarco">Edward A.</a></small>
+        </div>
+        <div class="close-modal">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
     
     <div class="navbar">
         <nav>
@@ -20,7 +43,7 @@
                 <h2>Splash</h2>
             </a>
             <div class="enlaces">
-                <a href="#">Informaci&oacute;n</a>
+                <button id="btnInfo">Informacion</button>
                 <a href="contribucion.html">¿Contribuci&oacute;n?</a>
             </div>
         </nav>
@@ -508,8 +531,13 @@
         </div>
     </section>
 
+    <footer>
+        <i class="fas fa-long-arrow-alt-right"></i> &nbsp;&COPY; Todos los Derechos Reservados - 2020 by <a href="https://github.com/Edward-Alarco">Edward A.</a>&nbsp; <i class="fas fa-long-arrow-alt-left"></i>
+    </footer>
+
 
     <script src="js/script.js"></script>
+    <script src="js/modal.js"></script>
     <script src="js/clipboard.js"></script>
     <script src="js/respect-colors.js"></script>
     <script src="https://rawcdn.githack.com/Edward-Alarco/scrollbar-custom.css/master/js/scrollbar.js?token=ANLIZ2SI36GSAG7AGWSJOI27USNGA"></script>

@@ -1,4 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,600;1,600&display=swap");
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 100;
+}
+
+.modal .close-modal {
+  position: fixed;
+  right: 0;
+  top: 0;
+  margin: 1.5rem;
+  background: #fff;
+  border-radius: 3px;
+  padding: 1rem 1.2rem;
+  cursor: pointer;
+}
+
+.modal .close-modal i {
+  font-size: 1.5rem;
+}
+
+.modal .info-modal {
+  background-color: #fff;
+  padding: 4rem 2rem;
+  width: 400px;
+}
+
+.modal .info-modal h2 {
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.modal .info-modal div p {
+  font-size: 1rem;
+  margin: 1rem 0 0.5rem 0;
+}
+
+.modal .info-modal div ul {
+  margin: 1rem 0;
+  list-style: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -55,6 +108,8 @@ body {
      object-fit: cover;
   margin-left: 0.5rem;
   margin: 0 1rem;
+  -webkit-transform: scale(1);
+          transform: scale(1);
 }
 
 .navbar nav a.logo h2 {
@@ -76,6 +131,18 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.navbar nav div.enlaces button {
+  padding: 10px 15px;
+  background: #3da9fc;
+  border: none;
+  font-size: 1rem;
+  outline: none !important;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  margin: 0 1rem;
 }
 
 .navbar nav div.enlaces a {
@@ -317,6 +384,7 @@ body {
 }
 
 .informacion .contenedor .content h3 {
+  color: #001e1d;
   font-size: 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -359,5 +427,15 @@ body {
 .informacion .contenedor .content #grid-system .columna-of-a input, .informacion .contenedor .content #grid-system .columna-of-b input, .informacion .contenedor .content #grid-system .columna-of-c input, .informacion .contenedor .content #grid-system .columna-of-d input, .informacion .contenedor .content #grid-system .columna-of-e input, .informacion .contenedor .content #grid-system .columna-of-f input, .informacion .contenedor .content #grid-system .columna-of-g input, .informacion .contenedor .content #grid-system .columna-of-h input, .informacion .contenedor .content #grid-system .columna-of-i input, .informacion .contenedor .content #grid-system .columna-of-j input, .informacion .contenedor .content #grid-system .columna-of-k input, .informacion .contenedor .content #grid-system .columna-of-l input {
   opacity: 0;
   pointer-events: none;
+}
+
+footer {
+  background: #fffffe;
+  padding: 3.5rem;
+  text-align: center;
+}
+
+footer a {
+  color: #333;
 }
 /*# sourceMappingURL=styles.css.map */
