@@ -29,6 +29,7 @@
 
 .modal .close-modal i {
   font-size: 1.5rem;
+  color: #094067;
 }
 
 .modal .info-modal {
@@ -50,6 +51,38 @@
 .modal .info-modal div ul {
   margin: 1rem 0;
   list-style: none;
+}
+
+.copiado {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  width: 100%;
+  height: 100vh;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  z-index: 100;
+}
+
+.copiado .texto-copiado {
+  margin: 2rem;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  padding: 1rem;
+  -webkit-box-shadow: 2px 2px 2.2px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 2.2px rgba(0, 0, 0, 0.5);
+  background-color: #fffffe;
+  border-radius: 3px;
+}
+
+.copiado .texto-copiado p {
+  font-size: 1rem;
 }
 
 * {
