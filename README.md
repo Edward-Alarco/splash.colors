@@ -3,8 +3,6 @@ Website to choose gradient colors as the background for your own projects!
 🛠 that helps you choose background gradients for your website!  🟥🟩🟦
 by [Edward A.](https://github.com/Edward-Alarco)
 
-![Image](https://raw.githubusercontent.com/Edward-Alarco/splash.colors/master/img/Splash-Logo.png?token=ANLIZ2RORDJ2TGRPNMMBUF27U2474)
-
 ### Tecnologias Usadas
 
 * [JavaScript] - Funcionalidad y Animaciones
@@ -32,3 +30,5 @@ Also, you can contact me by my personal email, in case you have constructive ide
 This tool is by everyone, for everyone!
 
 **Software Open Source 😛!**
+
+![Image](https://raw.githubusercontent.com/Edward-Alarco/splash.colors/master/img/Splash-Logo.png?token=ANLIZ2RORDJ2TGRPNMMBUF27U2474)
